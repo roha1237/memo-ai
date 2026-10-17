@@ -1,0 +1,6 @@
+{
+  "name": "MemoAI",
+  "description": "Smart Notes application with auto-save, categories, tags, search, trash, JSON backup/restore, and AI-ready assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

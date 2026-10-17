@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Memo Sheet Body centered in 66dp safe zone (30 to 78) -->
+    <!-- Note background card -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M34,30 L66,30 C69.3,30 72,32.7 72,36 L72,72 C72,75.3 69.3,78 66,78 L34,78 C30.7,78 28,75.3 28,72 L28,36 C28,32.7 30.7,30 34,30 Z" />
+    
+    <!-- Accent Top Banner on the note -->
+    <path
+        android:pathData="M28,36 C28,32.7 30.7,30 34,30 L66,30 C69.3,30 72,32.7 72,36 L72,42 L28,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="30"
+                android:endX="72"
+                android:endY="42"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Note lines -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M34,48 L58,48 C58.6,48 59,48.4 59,49 C59,49.6 58.6,50 58,50 L34,50 C33.4,50 33,49.6 33,49 C33,48.4 33.4,48 34,48 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M34,54 L66,54 C66.6,54 67,54.4 67,55 C67,55.6 66.6,56 66,56 L34,56 C33.4,56 33,55.6 33,55 C33,54.4 33.4,54 34,54 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M34,60 L60,60 C60.6,60 61,60.4 61,61 C61,61.6 60.6,62 60,62 L34,62 C33.4,62 33,61.6 33,61 C33,60.4 33.4,60 34,60 Z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M34,66 L50,66 C50.6,66 51,66.4 51,67 C51,67.6 50.6,68 50,68 L34,68 C33.4,68 33,67.6 33,67 C33,66.4 33.4,66 34,66 Z" />
+
+    <!-- AI Sparkle 4-point star in top-right -->
+    <path
+        android:pathData="M73,26 C73,29.5 75.5,32 79,32 C75.5,32 73,34.5 73,38 C73,34.5 70.5,32 67,32 C70.5,32 73,29.5 73,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="67"
+                android:startY="26"
+                android:endX="79"
+                android:endY="38"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F43F5E" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Small secondary sparkle -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M64,24 C64,25.5 65,26.5 66.5,26.5 C65,26.5 64,27.5 64,29 C64,27.5 63,26.5 61.5,26.5 C63,26.5 64,25.5 64,24 Z" />
+</vector>
